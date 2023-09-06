@@ -19,6 +19,10 @@ const power = function(a, b) {
 };
 
 const factorial = function(a) {
+  if (a === 0) {
+    return 1;
+  }
+  
   let product = 1;;
 	for(let i = 1; i <= a; i++) {
     product *= i;
